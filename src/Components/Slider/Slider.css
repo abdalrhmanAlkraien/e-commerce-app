@@ -43,14 +43,14 @@
 
 
 
-.swiper-slide .left {
+.swiper-slide .slider_left {
     display: flex;
     flex-direction: column;
     gap: .5rem;
     text-align: center;
 }
 
-.swiper_here>.left>:first-child {
+.swiper_here>.slider_left>:first-child {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: bold;
@@ -58,14 +58,14 @@
 
 }
 
-.swiper_here>.left>:nth-child(2) {
+.swiper_here>.slider_left>:nth-child(2) {
 
     font-weight: normal;
     font-size: 1rem;
     text-align: start;
 }
 
-.swiper_here>.left>:nth-child(3) {
+.swiper_here>.slider_left>:nth-child(3) {
 
     font-size: 1.5rem;
     font-weight: bold;

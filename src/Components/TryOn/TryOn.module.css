@@ -1,0 +1,61 @@
+.cotnainer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /* width: 80%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    text-align: start;
+    justify-content: start;
+    position: relative;
+
+}
+
+.left>span:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+}
+
+.left>span:nth-of-type(2) {
+    font-size: 1.6rem;
+    font-weight: normal;
+    display: block;
+    text-transform: uppercase;
+    
+}
+
+.left>span:nth-of-type(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    
+}
+
+.left>img:nth-of-type(1) {
+    position: absolute;
+    width: 8rem;
+    top: 12rem;
+    left: 0rem;
+}
+
+.right {
+    position: relative;
+    width: 28%;
+
+} 
+.warpper {
+    position: absolute;
+    width: 30rem;
+    top: -8rem;
+}

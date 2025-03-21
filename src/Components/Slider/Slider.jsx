@@ -1,5 +1,4 @@
 import React from 'react'
-import css from "./Slider.css"
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css'
@@ -24,14 +23,14 @@ const Slider = () => {
         >
             {SliderProducts.map((product, i)=> (
             <SwiperSlide className="swiper_here" key={i}>
-                <div className="left">
+                <div className="slider_left">
                     <span>{product.name}</span>
                     <span>{product.detail}</span>
                     <span>${product.price}</span>
 
                 </div>
 
-                <div className="right">
+                <div className="slider_right">
                     <img src={product.img} alt="" />
                 </div>
             </SwiperSlide>
